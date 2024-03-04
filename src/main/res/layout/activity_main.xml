@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="horizontal"
+    android:gravity="center">>
+    <EditText
+        android:id="@+id/plain_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+    <Spinner android:id="@+id/conversionType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
